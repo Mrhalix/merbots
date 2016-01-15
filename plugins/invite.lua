@@ -71,9 +71,9 @@ do
       },
     },
     patterns = {
-      '^!invite$',
-      '^!invite (.*)$',
-      '^!invite (%d+)$'
+      '^[!/.]inv$',
+      '^[!/.]inv(.*)$',
+      '^[!/.]inv(%d+)$'
     },
     run = run,
     moderated = true
